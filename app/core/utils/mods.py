@@ -6,6 +6,7 @@ from collections.abc import Generator
 from typing import Optional
 
 from app.core.models import LocalMod, RemoteMod
+from app.core.utils.hashing import hashdir
 
 
 logger = logging.getLogger(__name__)
