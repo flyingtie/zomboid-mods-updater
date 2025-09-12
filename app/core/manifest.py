@@ -15,4 +15,4 @@ def get_manifest(manifest_url: HttpUrl) -> Manifest:
     return Manifest.model_validate_json(resp.content)
 
 def generate_manifest(mods_folder: Path) -> Manifest:
-    
+    pass
